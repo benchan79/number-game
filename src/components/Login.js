@@ -47,7 +47,7 @@ function Login() {
           <h1>Welcome back {authCtx.user.username}!</h1>
           <p />
           <Link
-            to="/game"
+            to="/articles"
             onClick={(e) => {
               e.preventDefault();
               navigate(`/articles`, { replace: true });

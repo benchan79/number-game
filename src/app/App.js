@@ -20,15 +20,15 @@ function App() {
       <main>
         <Routes>
           <Route path="*" element={<DefaultPage />} />
-          <Route path="/" element={<Welcome />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/articles" element={<Articles />}>
+          <Route path="/number-game" element={<Welcome />} />
+          <Route path="/number-game/about" element={<About />} />
+          <Route path="/number-game/articles" element={<Articles />}>
             <Route path=":title" element={<Article />} />
           </Route>
-          <Route path="/login" element={<Login />} />
-          <Route path="/game" element={<Game />} />
-          <Route path="/sign-up" element={<SignUp />} />
-          <Route path="/profile" element={<Profile />}>
+          <Route path="/number-game/login" element={<Login />} />
+          <Route path="/number-game/game" element={<Game />} />
+          <Route path="/number-game/sign-up" element={<SignUp />} />
+          <Route path="/number-game/profile" element={<Profile />}>
             <Route path="edit" element={<EditProfileForm />} />
           </Route>
         </Routes>

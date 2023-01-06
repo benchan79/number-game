@@ -2,7 +2,7 @@ import { useParams } from 'react-router-dom';
 import ReactMarkdown from 'react-markdown';
 import { useContext } from "react";
 import AuthContext from "../context/AuthContextProvider";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export const articles = {
   "context-reducers": {
@@ -72,7 +72,6 @@ export const articles = {
 
 export default function Article() {
   const authCtx = useContext(AuthContext);
-  const navigate = useNavigate();
   const { title } = useParams();
   const article = articles[title];
 
@@ -82,13 +81,7 @@ export default function Article() {
         <h1>Unauthorized!</h1>
         Please login first!
         <p />
-        <Link
-          to="/login"
-          onClick={(e) => {
-            e.preventDefault();
-            navigate("/login", { replace: true });
-          }}
-        >
+        <Link to="/number-game/login">
           Click here to login
         </Link>
       </div>

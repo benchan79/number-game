@@ -20,13 +20,13 @@ function Welcome() {
           Hello Guest! 
           <p> Please log in to start playing.</p>
           <Button
-            onClick={() => {navigate("/login")}}
+            onClick={() => {navigate("/number-game/login")}}
             label="LOG IN"
           />
           <p>If you're a new user, please sign up for an account.</p>
           <button 
             className="primary"
-            onClick={() => {navigate("/sign-up")}}
+            onClick={() => {navigate("/number-game/sign-up")}}
           >
             Sign Up
           </button>
@@ -36,11 +36,11 @@ function Welcome() {
         <>
           Hello {authCtx.user.username}!
           <p />
-          <Link to="/game">
+          <Link to="/number-game/game">
             Play "Guess the Mystery Number"
           </Link>
           <p/>
-          <Link to="/articles">
+          <Link to="/number-game/articles">
             Read an article
           </Link>
         </>

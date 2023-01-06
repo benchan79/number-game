@@ -48,7 +48,7 @@ export default function SignUp () {
       You're logged in now.
       <p>Please log out first to sign up for another account.</p>
       <Link
-        to="/game"
+        to="/articles"
         onClick={(e) => {
           e.preventDefault();
           navigate(`/articles`, { replace: true });

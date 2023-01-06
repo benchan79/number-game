@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import AuthContext from "../context/AuthContextProvider";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import { Input } from "./Input";
 import { Button } from "./Button";
@@ -34,7 +34,6 @@ const circle = {
 
 function Game() {
   const authCtx = useContext(AuthContext);
-  const navigate = useNavigate();
 
   const [answer, setAnswer] = useState(() =>
     Math.floor(Math.random() * 20 + 1)
@@ -96,13 +95,7 @@ function Game() {
         <h1>Unauthorized!</h1>
         Please login first!
         <p />
-        <Link
-          to="/login"
-          onClick={(e) => {
-            e.preventDefault();
-            navigate("/login", { replace: true });
-          }}
-        >
+        <Link to="/number-game/login">
           Click here to login
         </Link>
       </div>

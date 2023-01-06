@@ -7,7 +7,7 @@ export default function Profile () {
   const authCtx = useContext(AuthContext);
 
   if (!authCtx.isLoggedIn) {
-    return <Navigate to="/login" />;
+    return <Navigate to="/number-game/login" />;
   }
 
   return (
