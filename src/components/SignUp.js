@@ -47,23 +47,11 @@ export default function SignUp () {
       <h1>Hello {authCtx.user.username}!</h1>
       You're logged in now.
       <p>Please log out first to sign up for another account.</p>
-      <Link
-        to="/articles"
-        onClick={(e) => {
-          e.preventDefault();
-          navigate(`/articles`, { replace: true });
-        }}
-      >
+      <Link to="/number-game/articles">
         Read an article
       </Link>
           <p/>
-      <Link
-        to="/game"
-        onClick={(e) => {
-          e.preventDefault();
-          navigate(`/game`, { replace: true });
-        }}
-      >
+      <Link to="/number-game/game">
         Play "Guess the Mystery Number"
       </Link>
     </div>
