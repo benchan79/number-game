@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/number-game/static/css/main.0879e891.css",
-    "main.js": "/number-game/static/js/main.04c7b2b6.js",
+    "main.js": "/number-game/static/js/main.9f6392c8.js",
     "index.html": "/number-game/index.html",
     "main.0879e891.css.map": "/number-game/static/css/main.0879e891.css.map",
-    "main.04c7b2b6.js.map": "/number-game/static/js/main.04c7b2b6.js.map"
+    "main.9f6392c8.js.map": "/number-game/static/js/main.9f6392c8.js.map"
   },
   "entrypoints": [
     "static/css/main.0879e891.css",
-    "static/js/main.04c7b2b6.js"
+    "static/js/main.9f6392c8.js"
   ]
 }
