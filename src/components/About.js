@@ -10,6 +10,8 @@ export default function About() {
     <div style={styles}>
       <p>
         About the game...
+        {process.env.NODE_ENV === 'development' && <h3>{process.env.REACT_APP_DEVTMESSAGE}</h3>}
+        {process.env.NODE_ENV === 'production' && <h3>{process.env.REACT_APP_PRODMESSAGE}</h3>}
       </p>
     </div>
   );
