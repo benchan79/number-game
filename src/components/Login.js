@@ -47,20 +47,20 @@ function Login() {
           <h1>Welcome back {authCtx.user.username}!</h1>
           <p />
           <Link
-            to="/articles"
+            to="/number-game/articles"
             onClick={(e) => {
               e.preventDefault();
-              navigate(`/articles`, { replace: true });
+              navigate(`/number-game/articles`, { replace: true });
             }}
           >
             Read an article
           </Link>
           <p/>
           <Link
-            to="/game"
+            to="/number-game/game"
             onClick={(e) => {
               e.preventDefault();
-              navigate(`/game`, { replace: true });
+              navigate(`/number-game/game`, { replace: true });
             }}
           >
             Let's Start Playing
