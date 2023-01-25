@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import AuthContext from "../context/AuthContextProvider";
-import { useNavigate, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function SignUp () {
   const authCtx = useContext(AuthContext);
