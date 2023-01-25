@@ -4,7 +4,7 @@ import { useNavigate, Link } from "react-router-dom";
 
 export default function SignUp () {
   const authCtx = useContext(AuthContext);
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
 
   if (!authCtx.isLoggedIn) {
     return (
