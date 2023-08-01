@@ -1,0 +1,15 @@
+export const ProverbsData = [
+{id: 1,	label: "In all your ways acknowledge Him, and He will make straight your paths.", value:	"3:6"},
+{id: 2,	label: "The simple believes everything, but the prudent gives thought to his steps.", value:	"14:15"},
+{id: 3,	label: "Death and life are in the power of the tongue, and those who love it will eat its fruits.", value:	"18:21"},
+{id: 4,	label: "When a man's ways please the Lord, he makes even his enemies to be at peace with him.", value:	"16:7"},
+{id: 5,	label: "A good name is to be chosen rather than great riches, and favour is better than silver or gold.", value:	"22:1"},
+{id: 6,	label: "Whoever despises his neighbor is a sinner, but blessed is he who is generous to the poor.", value:	"14:21"},
+{id: 7,	label: "Scoffers set a city aflame, but the wise turn away wrath.", value:	"29:8"},
+{id: 8,	label: "My son, if sinners entice you, do not consent.", value:	"1:10"},
+{id: 9,	label: "Let your eyes look directly forward, and your gaze be straight before you.", value:	"4:25"},
+{id: 10,	label:"Whoever conceals his transgressions will not prosper, but he who confesses and forsakes them will obtain mercy.",	value: "28:13"},
+{id: 11,	label:"Make plans by seeking advice; if you wage war, obtain guidance.",	value: "20:18"},
+{id: 12,	label:"The wicked flee when no one pursues, but the righteous are bold as a lion.",value: 	"28:1"},
+{id: 13,	label:"In the path of righteousness is life, and in its pathway there is no death.",	value: "12:28"},
+]

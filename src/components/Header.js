@@ -11,7 +11,8 @@ export default function Header () {
         <NavLink to="/number-game">Home</NavLink>
         <NavLink to="/number-game/about">About</NavLink>
         <NavLink to="/number-game/articles">Articles</NavLink>
-        <NavLink to="/number-game/game">Play Game</NavLink>
+        <NavLink to="/number-game/proverbs-game">Play Proverbs Game</NavLink>
+        <NavLink to="/number-game/game">Play Number Game</NavLink>
         <NavLink to="/number-game/sign-up">Sign Up</NavLink>
         {
           authCtx.user.username ?
